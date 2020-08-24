@@ -1,8 +1,6 @@
 <h1>TASKLIST</h1>
 
-<% if logged_in? %>
   <p>ログイン完了ユーザ: <%= current_user.name %></p>
-<% end %>
 
 <ul>
   <% @tasks.each do |task| %>
